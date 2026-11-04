@@ -1,0 +1,16 @@
+name: GeenHonger
+version: '1.0.0'
+main: nl.geenhonger.GeenHongerPlugin
+api-version: '26.1'
+description: 'Spelers krijgen nooit honger (bijvoorbeeld in de lobby)'
+commands:
+  geenhonger:
+    description: 'Status en herladen van GeenHonger'
+    usage: '/geenhonger [reload]'
+permissions:
+  geenhonger.admin:
+    description: 'Mag /geenhonger reload gebruiken'
+    default: op
+  geenhonger.honger:
+    description: 'Deze speler krijgt wel gewoon honger (uitzondering)'
+    default: false

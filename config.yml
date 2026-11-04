@@ -1,0 +1,10 @@
+# GeenHonger: spelers krijgen nooit honger.
+actief: true
+
+# In welke werelden? Leeg laten ( [] ) = in alle werelden.
+# Zet dit plugin alleen op je lobby-server, dan hoef je hier niets in te vullen.
+werelden: []
+
+# Spelers met de permissie geenhonger.honger krijgen wel gewoon honger.
+# true = die uitzondering werkt; false = iedereen is altijd verzadigd.
+uitzondering-permissie: true
